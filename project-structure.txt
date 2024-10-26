@@ -1,0 +1,34 @@
+solar-energy-app/
+├── README.md
+├── package.json
+├── .gitignore
+├── .env.example
+├── tailwind.config.js
+├── postcss.config.js
+├── public/
+│   ├── favicon.ico
+│   └── manifest.json
+└── src/
+    ├── App.jsx
+    ├── index.js
+    ├── components/
+    │   ├── ui/
+    │   │   ├── card.jsx
+    │   │   ├── tabs.jsx
+    │   │   └── button.jsx
+    │   └── layout/
+    │       ├── StatusBar.jsx
+    │       ├── Navigation.jsx
+    │       └── BottomNav.jsx
+    ├── pages/
+    │   ├── Login.jsx
+    │   ├── Dashboard.jsx
+    │   ├── UsageAnalysis.jsx
+    │   └── BatteryManagement.jsx
+    ├── utils/
+    │   ├── constants.js
+    │   └── helpers.js
+    ├── hooks/
+    │   └── useAuth.js
+    └── styles/
+        └── globals.css
